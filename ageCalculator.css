@@ -1,0 +1,49 @@
+.main{
+    background-image: url("download.png");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    text-align: center;
+}
+.workspace:hover{
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color :#c85d70;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.heading{
+    font-weight: bold;
+    font-size: 60px;
+    color:rgba(8,25,90,255);
+    font-family:"sofia" ;
+}
+#year,#day,#month{
+border: 3px solid black;
+height: 30px;
+}
+input{
+    color:rgba(8,25,90,255);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: "sofia";
+}
+.heading1{
+font-family: "sofia";
+}
+button{
+    font-family: "sofia";
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid black;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+#result{
+    color:rgba(8,25,90,255);
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 6px;
+}
